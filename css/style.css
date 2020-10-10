@@ -58,6 +58,15 @@ iframe{
 		width:50% !important;
 	}
 }
+
+@media (min-width: 768px){
+	#logo-wrapper{
+		width:66.6666% !important;
+	}
+	#donation-wrapper{
+		width:33.33% !important;
+	}
+}
 /* ==================================================
    Basic Styles
 ================================================== */
