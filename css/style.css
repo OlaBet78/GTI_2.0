@@ -49,7 +49,7 @@ iframe{
 /* ==================================================
   Custom Styles
 ================================================== */
-@media (min-width: 992px){
+/* @media (min-width: 992px){
 	#logo-wrapper{
 		width:50% !important;
 	}
@@ -66,7 +66,7 @@ iframe{
 	#donation-wrapper{
 		width:33.33% !important;
 	}
-}
+} */
 /* ==================================================
    Basic Styles
 ================================================== */
@@ -3022,11 +3022,11 @@ span.progress-bar-tooltip:after {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
 }
-@media screen and (min-width: 320px) and (max-width: 700px) {
+/* @media screen and (min-width: 320px) and (max-width: 700px) {
 .logo span{
 	display: none;
 }
-}
+} */
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	
 }
