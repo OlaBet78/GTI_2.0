@@ -21,6 +21,7 @@
 <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen" /><![endif]-->
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css"> 
+<link href="css/custom.css" rel="stylesheet" type="text/css"> 
 <link href="css/custom.css" rel="stylesheet" type="text/css">
 <!-- SCRIPTS
   ================================================== -->
@@ -36,14 +37,15 @@
     <div class="topbar">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-8">
-            <h1 class="logo"> <a href="index.html"><img src="images/logo.png" alt="Logo"></a> </h1>
+          <div class="col-md-4 col-sm-6 col-xs-8"  id="logo-wrapper">
+            <div class="logo"><a href="index.html"><img src="images/GTI_Logo_Resized.png" alt="Logo"></a></div>
+            
           </div>
-          <div class="col-md-8 col-sm-6 col-xs-4">
+          <div class="col-md-8 col-sm-6 col-xs-4"  id="donation-wrapper">
             <ul class="top-navigation hidden-sm hidden-xs">
-              <li><a href="plan-visit.html">Plan your visit</a></li>
-              <li><a href="events-calendar.html">Calendar</a></li>
-              <li><a href="donate.html">Donate Now</a></li>
+              <!-- <li><a href="plan-visit.html">Plan your visit</a></li>
+              <li><a href="events-calendar.html">Calendar</a></li> -->
+              <li><a href="donate.html">Give Offering</a></li>
             </ul>
             <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a> </div>
         </div>
@@ -56,7 +58,7 @@
             <nav class="navigation">
               <ul class="sf-menu">
                 <li><a href="index.html">Home</a>
-                  <ul class="dropdown">
+                  <!-- <ul class="dropdown">
                     <li><a href="index.html">Sliders</a>
                     		<ul class="dropdown">
                     			<li><a href="index.html">Flex Slider</a></li>
@@ -78,41 +80,41 @@
                     <li><a href="index3.html">Home version 4</a></li>
                     <li><a href="index4.html">Home version 5</a></li>
                     <li><a href="index5.html">Home version 6 <span class="label label-danger">New</span></a></li>
-                  </ul>
+                  </ul> -->
                 </li>
                 <li><a href="about.html">About Us</a>
-                  <ul class="dropdown">
+                  <!-- <ul class="dropdown">
                     <li><a href="about.html">Overview</a></li>
                     <li><a href="contact.html">Where we meet</a></li>
                     <li><a href="our-staff.html">Our Staff</a></li>
                 	<li><a href="contact.html">Contact</a></li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li class="megamenu"><a href="shortcodes.html">Mega Menu</a>
+                <li class="megamenu"><a href="shortcodes.html">Our Ministries</a>
                   <ul class="dropdown">
                     <li>
                       <div class="megamenu-container container">
                         <div class="row">
-                          <div class="col-md-3 hidden-sm hidden-xs"> <span class="megamenu-sub-title"><i class="fa fa-bell"></i> Today's Prayer</span>
+                          <!-- <div class="col-md-3 hidden-sm hidden-xs"> <span class="megamenu-sub-title"><i class="fa fa-bell"></i> Today's Prayer</span>
                             <iframe width="200" height="150" src="http://player.vimeo.com/video/19564018?title=0&amp;byline=0&amp;color=007F7B"></iframe>
-                          </div>
+                          </div> -->
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-pagelines"></i> Our Ministries</span>
                             <ul class="sub-menu">
                               <li><a href="women-ministry.html">Women's Ministry</a></li>
                               <li><a href="men-ministry.html">Men's Ministry</a></li>
                               <li><a href="children-ministry.html">Children's Ministry</a></li>
                               <li><a href="youth-ministry.html">Youth Ministry</a></li>
-                              <li><a href="ministry.html">Prayer Requests</a></li>
+                              <!-- <li><a href="ministry.html">Prayer Requests</a></li> -->
                             </ul>
                           </div>
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-clock-o"></i> Upcoming Events</span>
                             <ul class="sub-menu">
-                              <li><a href="single-event.html">Monday Prayer</a> <span class="meta-data">Monday | 06:00 PM</span> </li>
-                              <li><a href="single-event.html">Staff members meet</a> <span class="meta-data">Tuesday | 08:00 AM</span> </li>
-                              <li><a href="single-event.html">Evening Prayer</a> <span class="meta-data">Friday | 07:00 PM</span> </li>
+                              <li><a href="sunday-worship.html">Sunday Worship Service</a> <span class="meta-data">Every Sunday | 12:00-15:00</span> </li>
+                              <li><a href="midweek-prayer.html">Midweek Prayer Meeting</a> <span class="meta-data">Every Wednesday | 18:00-19:00</span> </li>
+                              <li><a href="eagles-retreat.html">Eagles Retreat</a> <span class="meta-data">Every Last Saturday | 16:00-18:00</span> </li>
                             </ul>
                           </div>
-                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Features</span>
+                          <!-- <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Features</span>
                             <ul class="sub-menu">
                               <li><a href="shortcodes.html">Shortcodes</a></li>
                               <li><a href="typography.html">Typography</a></li>
@@ -120,13 +122,14 @@
                     			<li><a href="shop-sidebar.html">Shop Sidebar <span class="label label-danger">New</span></a></li>
                     			<li><a href="shop-product.html">Single Product <span class="label label-danger">New</span></a></li>
                             </ul>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </li>
                   </ul>
                 </li>
-                <li><a href="events.html">Events</a>
+                
+                <!-- <li><a href="events.html">Events</a>
                   <ul class="dropdown">
                     <li><a href="events.html">Events Listing</a></li>
                     <li><a href="events-timeline.html">Events Timeline</a></li>
@@ -135,16 +138,16 @@
                     <li><a href="events-grid.html">Events Masonry Grid</a></li>
                     <li><a href="single-event.html">Single Event</a></li>
                   </ul>
-                </li>
+                </li> -->
                 <li><a href="sermons.html">Sermons</a>
                   <ul class="dropdown">
-                    <li><a href="sermon-albums.html">Sermon Albums</a></li>
-                    <li><a href="sermons.html">Sermons Archive</a></li>
-                    <li><a href="single-sermon.html">Single Sermon</a></li>
+                    <li><a href="sermon-albums.html">Audio</a></li>
+                    <li><a href="sermons.html">Videos</a></li>
+                    <!-- <li><a href="single-sermon.html">Single Sermon</a></li> -->
                   </ul>
                 </li>
                 <li><a href="gallery-2cols-pagination.html">Gallery</a>
-                  <ul class="dropdown">
+                  <!-- <ul class="dropdown">
                     <li><a href="gallery-2cols-pagination.html">With Pagination</a>
                       <ul class="dropdown">
                         <li><a href="gallery-2cols-pagination.html">2 Columns</a></li>
@@ -160,23 +163,23 @@
                       </ul>
                     </li>
                     <li><a href="gallery-masonry.html">Masonry Grid</a></li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li><a href="blog-masonry.html">Blog</a>
-                  <ul class="dropdown">
+                <li><a href="https://www.youtube.com/user/gtisweden" target="_blank">Live Service</a>
+                  <!-- <ul class="dropdown">
                     <li><a href="blog-masonry.html">Masonry Blog</a></li>
                     <li><a href="blog-full-width.html">Full Width Blog</a></li>
                     <li><a href="blog-timeline.html">Timeline Blog</a></li>
                     <li><a href="blog-medium-thumbnails.html">Medium Thumbnails</a></li>
                     <li><a href="blog-post.html">Single Blog Post</a></li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li><a href="causes.html">Causes</a>
-                  <ul class="dropdown">
+                <li><a href="contact.html">Contact Us</a>
+                  <!-- <ul class="dropdown">
                     <li><a href="causes.html">Causes List</a></li>
                     <li><a href="causes-grid.html">Causes Grid</a></li>
                     <li><a href="single-cause.html">Single Cause</a></li>
-                  </ul>
+                  </ul> -->
               	</li>
               </ul>
             </nav>
@@ -186,151 +189,99 @@
     </div>
   </header>
   <!-- End Site Header --> 
-  <!-- Start Hero Slider -->
-  <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
-    <ul class="slides">
-      <li class=" parallax" style="background-image:url(http://placehold.it/1280x635&amp;text=IMAGE+PLACEHOLDER);"></li>
-      <li class="parallax" style="background-image:url(http://placehold.it/1280x635&amp;text=IMAGE+PLACEHOLDER);"></li>
-    </ul>
-  </div>
-  <!-- End Hero Slider --> 
-  <!-- Start Notice Bar -->
-  <div class="notice-bar latest-sermon">
+  <!-- Start Nav Backed Header -->
+  <div class="nav-backed-header parallax">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-4 hidden-xs">
-        	<h3><i class="fa fa-microphone"></i> Latest Sermon</h3>
-        </div>
-        <div class="col-md-7 col-sm-8 col-xs-12">
-        	<audio class="audio-player" src="audio/Miaow-02-Hidden.mp3" type="audio/mp3" controls></audio>
-        </div>
-        <div class="col-md-2 hidden-sm hidden-xs">
-        	<a href="sermons.html" class="btn btn-block btn-primary">All Sermons</a>
+        <div class="col-md-12">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Ministries</a></li>
+            <li class="active">Youth Ministry</li>
+          </ol>
         </div>
       </div>
     </div>
   </div>
-  <!-- End Notice Bar --> 
+  <!-- End Nav Backed Header --> 
+  <!-- Start Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Ministry Page Sample</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Page Header --> 
   <!-- Start Content -->
   <div class="main" role="main">
     <div id="content" class="content full">
       <div class="container">
-        <div class="row"> 
-          <!-- Start Featured Blocks -->
-          <div class="featured-blocks clearfix">
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="our-staff.html" class="img-thumbnail"> <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="staff"> <strong>Our Pastors</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="about.html" class="img-thumbnail"> <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="staff"> <strong>New Here</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="sermons.html" class="img-thumbnail"> <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="staff"> <strong>Sermons Archive</strong> <span class="more">read more</span> </a> </div>
-          </div>
-          <!-- End Featured Blocks --> 
-        </div>
         <div class="row">
-          <div class="col-md-8 col-sm-6"> 
-            <!-- Events Listing -->
-            <div class="listing events-listing">
-              <header class="listing-header">
-                <h3>More Coming Events</h3>
-              </header>
-              <section class="listing-cont">
-                <ul>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">06</span> <span class="month">Aug</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="single-event.html">Monday Prayer</a></h4>
-                      <span class="event-dayntime meta-data">Monday | 07:00 AM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
-                    </div>
-                  </li>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">28</span> <span class="month">Aug</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="single-event.html">Staff members meet</a></h4>
-                      <span class="event-dayntime meta-data">Monday | 01:00 PM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
-                    </div>
-                  </li>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">25</span> <span class="month">Sep</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="single-event.html">Evening Prayer</a></h4>
-                      <span class="event-dayntime meta-data">Friday | 06:00 PM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
-                    </div>
-                  </li>
+          <div class="col-md-8">
+            <header class="single-post-header clearfix">
+              <h2 class="post-title">Our Church Youth's Ministry</h2>
+            </header>
+            <div class="post-content">
+            	<img src="http://placehold.it/1280x635&amp;text=IMAGE+PLACEHOLDER" alt="Women Ministry" class="img-thumbnail">
+               <div class="spacer-30"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p>
+              <hr>
+              <h3>Get Involved</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p>
+              <a href="contact.html" class="btn btn-primary">Find a Lifegroup</a>
+              <hr>
+              	<h3>Ministry Team</h3>
+                <ul class="checks">
+                	<li>Mildred George</li>
+                  <li>Ashleigh Cox</li>
+                  <li>Giorgiana Mărginean</li>
+                  <li>Christine Mendez</li>
                 </ul>
-              </section>
-            </div>
-            <div class="spacer-30"></div>
-            <!-- Latest News -->
-            <div class="listing post-listing">
-              <header class="listing-header">
-                <h3>Latest News</h3>
-              </header>
-              <section class="listing-cont">
-                <ul>
-                  <li class="item post">
-                    <div class="row">
-                      <div class="col-md-4"> <a href="#" class="media-box"> <img src="http://placehold.it/800x600&amp;text=IMAGE+PLACEHOLDER" alt="" class="img-thumbnail"> </a></div>
-                      <div class="col-md-8">
-                        <div class="post-title">
-                          <h2><a href="blog-post.html">Voluptatum deleniti atque corrupti</a></h2>
-                          <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="item post">
-                    <div class="row">
-                      <div class="col-md-4"> <a href="blog-post.html" class="media-box"> <img src="http://placehold.it/800x600&amp;text=IMAGE+PLACEHOLDER" alt="" class="img-thumbnail"> </a></div>
-                      <div class="col-md-8">
-                        <div class="post-title">
-                          <h2><a href="blog-post.html">Voluptatum deleniti atque corrupti</a></h2>
-                          <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </section>
             </div>
           </div>
           <!-- Start Sidebar -->
-          <div class="col-md-4 col-sm-6"> 
-            <!-- Latest Sermons -->
-            <div class="listing sermons-listing">
-              <header class="listing-header">
-                <h3>Recent Sermons</h3>
-              </header>
-              <section class="listing-cont">
-                <ul>
-                  <li class="item sermon featured-sermon"> <span class="date">Feb 14, 2014</span>
-                    <h4><a href="single-sermon.html">How To Recover The Cutting Edge</a></h4>
-                    <div class="featured-sermon-video">
-                      <iframe width="200" height="150" src="http://player.vimeo.com/video/19564018?title=0&amp;byline=0&amp;color=007F7B"></iframe>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis consectetur adipiscing elit. Nulla convallis egestas rhoncus</p>
-                    <div class="sermon-actions"> <a href="#" data-placement="top" data-toggle="tooltip" data-original-title="Video"><i class="fa fa-video-camera"></i></a> <a href="#" data-placement="top" data-toggle="tooltip" data-original-title="Audio"><i class="fa fa-headphones"></i></a> <a href="#" data-placement="top" data-toggle="tooltip" data-original-title="Read online"><i class="fa fa-file-text-o"></i></a> <a href="#" data-placement="top" data-toggle="tooltip" data-original-title="Download PDF"><i class="fa fa-book"></i></a> </div>
-                  </li>
-                  <li class="item sermon">
-                    <h2 class="sermon-title"><a href="single-sermon.html">Voluptatum deleniti atque corrupti</a></h2>
-                    <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span> </li>
-                  <li class="item sermon">
-                    <h2 class="sermon-title"><a href="single-sermon.html">Voluptatum deleniti atque corrupti</a></h2>
-                    <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span> </li>
-                  <li class="item sermon">
-                    <h2 class="sermon-title"><a href="single-sermon.html">Voluptatum deleniti atque corrupti</a></h2>
-                    <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span> </li>
-                </ul>
-              </section>
+          <div class="col-md-4 sidebar">
+            <!-- Photo Gallery Widget -->
+            <div class="widget-gallery widget">
+              <div class="sidebar-widget-title">
+                <h3>Latest Gallery Items</h3>
+              </div>
+              <ul>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+                <li> <a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" class="media-box post-image" data-rel="prettyPhoto[galwid]"> <img src="http://placehold.it/80x80&amp;text=IMAGE" alt="" class="img-thumbnail"> </a></li>
+              </ul>
+            </div>
+            <div class="widget-upcoming-events widget">
+              <div class="sidebar-widget-title">
+                <h3>Ministry Events</h3>
+              </div>
+              <ul>
+                <li class="item event-item clearfix">
+                  <div class="event-date"> <span class="date">28</span> <span class="month">Aug</span> </div>
+                  <div class="event-detail">
+                    <h4><a href="#">Staff members meet</a></h4>
+                    <span class="event-dayntime meta-data">Monday | 01:00 PM</span> </div>
+                </li>
+                <li class="item event-item clearfix">
+                  <div class="event-date"> <span class="date">06</span> <span class="month">Aug</span> </div>
+                  <div class="event-detail">
+                    <h4><a href="#">Monday Prayer</a></h4>
+                    <span class="event-dayntime meta-data">Monday | 07:00 AM</span> </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <!-- Start Footer -->
   <footer class="site-footer">
     <div class="container">
@@ -338,7 +289,7 @@
         <!-- Start Footer Widgets -->
         <div class="col-md-4 col-sm-4 widget footer-widget">
           <h4 class="footer-widget-title">About our Church</h4>
-          <img src="images/logo.png" alt="Logo">
+          <span class="bold">GLORY</span><span>TABERNACLE MINISTRIES</span>
           <div class="spacer-20"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis consectetur adipiscing elit. Nulla convallis egestas rhoncus</p>
         </div>
@@ -373,7 +324,7 @@
     </div>
   </footer>
   <!-- End Footer --> 
-  <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+  <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
 </div>
 <script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call --> 
 <script src="plugins/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin --> 
