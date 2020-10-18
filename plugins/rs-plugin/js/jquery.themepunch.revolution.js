@@ -3953,8 +3953,8 @@
 										// RESET DEFAULTS
 										var autoplaywason = false;
 										if (nextcaption.data('autoplayonlyfirsttime') == true || nextcaption.data('autoplayonlyfirsttime')=="true" || nextcaption.data('autoplay')==true) {
-											nextcaption.data('autoplay',true);
-											autoplaywason = true;
+											nextcaption.data('autoplay',false);
+											autoplaywason = false;
 										}
 
 
