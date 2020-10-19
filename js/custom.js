@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.instagramFeed({
-            'username': 'zuck',
+            'username': 'glorytabernacleinternational',
             'container': "#instagram-feed",
             'display_profile':false,
             'display_biography':false,
